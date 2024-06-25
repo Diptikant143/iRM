@@ -18,11 +18,11 @@ public class LoginPage {
 	@FindBy(xpath="//a[@id='proceed-link']")
 	private WebElement clickOnUnsafeLink;
 
-	@FindBy(xpath = "//div[@class='mat-select-arrow ng-tns-c155-7']")
+	@FindBy(xpath = "//div[@class='mat-form-field-infix ng-tns-c146-8']")
     private WebElement dropdownElement1;
 	
-	@FindBy(xpath = "(//span[@class='mat-option-text'])[1]")
-    private WebElement clickOnIRMSuperAdmin;
+	@FindBy(xpath = "//span[text()=' Test_Fusion_001 ']")
+    private WebElement clickOnClientname;
 	
 	
 	public WebElement getDropdownElement1() {
@@ -131,9 +131,16 @@ public class LoginPage {
 
 
 
-	public WebElement getClickOnIRMSuperAdmin() {
-		return clickOnIRMSuperAdmin;
+	public WebElement getClickOnClientname() {
+		return clickOnClientname;
 	}
+
+
+
+
+
+
+	
 
 
 

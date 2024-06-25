@@ -37,7 +37,7 @@ public class login extends BaseClass{
 		lo.getPasswordtextfield().sendKeys(PASSWORD);
 		lo.getLoginbtn2().click();
 		lo.getDropdownElement1().click();
-		lo.getClickOnIRMSuperAdmin().click();
+		lo.getClickOnClientname().click();
 		lo.getLoginbtn2().click();
 		ListnerImplementationClass.test.log(Status.INFO, "LOGIN SUCESSFULLY");
 
