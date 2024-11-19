@@ -57,7 +57,7 @@ public void launchBrowser() throws Throwable {
     	//WebDriverManager.chromedriver().setup();
     	System.
     	setProperty
-    	("webdriver.chrome.driver", "C:\\Users\\DIPTIKANT\\Downloads\\Automation-main (1)\\Automation-main\\chromedriver.exe");
+    	("webdriver.chrome.driver", "C:\\Users\\DIPTIKANT\\git\\seleniumiRM\\com.framework.seleniumiRM\\chromedriver.exe");
         driver = new ChromeDriver();
         
     } else {

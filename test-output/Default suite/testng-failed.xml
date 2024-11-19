@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.Securitycockpittext">
+      <class name="demo.Developerdashboard">
         <methods>
           <include name="launchBrowser"/>
           <include name="bSuite"/>
           <include name="logoutApp"/>
           <include name="closeBrowser"/>
           <include name="closeDB"/>
-          <include name="Security"/>
           <include name="loginToApp"/>
+          <include name="Devedevperdashboard"/>
         </methods>
-      </class> <!-- demo.Securitycockpittext -->
+      </class> <!-- demo.Developerdashboard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
